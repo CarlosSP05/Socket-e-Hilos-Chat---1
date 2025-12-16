@@ -29,9 +29,9 @@ Una vez conectado, el servidor bloquea la conexión durante 15 segundos, impidie
 <img width="1826" height="892" alt="image" src="https://github.com/user-attachments/assets/372b54dc-bd62-4bd2-812f-1aaf8e7c5649" />  (Cliente fase 1)
 -----------
 <img width="1844" height="901" alt="image" src="https://github.com/user-attachments/assets/6f4c9b0a-c542-45d3-87f7-046fc452c98b" />  (Servidor fase 1)
------------
+----------
 
-
+----------
 
 Fase 2: La Conversación Fluida
 -
@@ -47,7 +47,7 @@ El servidor responde a cada mensaje hasta que el cliente envíe "FIN" para termi
 <img width="1804" height="926" alt="image" src="https://github.com/user-attachments/assets/c2788230-6061-4fcd-a130-7002abb7b83d" />  (Servidor fase 2)
 ---------
 
-
+---------
 
 Fase 3: El Servidor Multihilo
 -
@@ -62,7 +62,7 @@ Cada vez que un cliente se conecta, el servidor crea un nuevo hilo para gestiona
 <img width="1851" height="908" alt="image" src="https://github.com/user-attachments/assets/39c601ec-dd7b-4852-bac8-ec69d53d52da" />  (Server fase 3)
 ---------
 
-
+---------
 
 Fase 4: Mejora del Servidor - Comandos y Terminación
 -
