@@ -4,6 +4,7 @@ Servidor-Cliente en Java con Sockets
 Este proyecto implementa un servidor y un cliente en Java utilizando sockets. A lo largo de las diferentes fases, el servidor se ha ido mejorando para manejar múltiples clientes, intercambiar mensajes y responder a comandos específicos.
 
 Estructura del Proyecto
+-
 
 Fase 1: El servidor acepta una sola conexión de cliente y se bloquea mientras procesa esa conexión.
 
@@ -13,15 +14,16 @@ Fase 3: El servidor maneja múltiples clientes simultáneamente utilizando hilos
 
 Fase 4: El servidor responde a comandos específicos del cliente como "FIN" para cerrar la conexión y "TIME" para obtener la hora actual.
 
-Fase 1: Análisis del Bloqueo
-Descripción:
 
+--------
+
+Fase 1: Análisis del Bloqueo
+-
+Descripción:
 En esta fase, el servidor bloquea la conexión de nuevos clientes mientras está ocupado con un cliente. Esto se simula añadiendo un retraso de 15 segundos utilizando Thread.sleep(15000).
 
 Funcionalidad:
-
 El servidor acepta una única conexión de cliente.
-
 Una vez conectado, el servidor bloquea la conexión durante 15 segundos, impidiendo que un segundo cliente se conecte.
 
 <img width="1826" height="892" alt="image" src="https://github.com/user-attachments/assets/372b54dc-bd62-4bd2-812f-1aaf8e7c5649" />  (Cliente fase 1)
