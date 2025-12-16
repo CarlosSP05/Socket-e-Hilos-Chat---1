@@ -32,15 +32,14 @@ Una vez conectado, el servidor bloquea la conexión durante 15 segundos, impidie
 -----------
 
 
-Fase 2: La Conversación Fluida
-Descripción:
 
+Fase 2: La Conversación Fluida
+-
+Descripción:
 En esta fase, se implementa un sistema de conversación fluida entre el cliente y el servidor, donde el servidor sigue respondiendo a los mensajes del cliente hasta que se recibe el comando "FIN".
 
 Funcionalidad:
-
 El cliente puede enviar mensajes continuamente al servidor.
-
 El servidor responde a cada mensaje hasta que el cliente envíe "FIN" para terminar la conversación.
 
 <img width="1817" height="905" alt="image" src="https://github.com/user-attachments/assets/f4011a0c-858b-47bb-80a4-eb02fc949105" />  (Cliente fase 2)
@@ -48,13 +47,14 @@ El servidor responde a cada mensaje hasta que el cliente envíe "FIN" para termi
 <img width="1804" height="926" alt="image" src="https://github.com/user-attachments/assets/c2788230-6061-4fcd-a130-7002abb7b83d" />  (Servidor fase 2)
 ---------
 
-Fase 3: El Servidor Multihilo
-Descripción:
 
+
+Fase 3: El Servidor Multihilo
+-
+Descripción:
 Esta fase extiende el servidor para permitir múltiples conexiones simultáneas. El servidor maneja a cada cliente en un hilo separado, lo que permite que el servidor atienda varios clientes a la vez.
 
 Funcionalidad:
-
 Cada vez que un cliente se conecta, el servidor crea un nuevo hilo para gestionar la comunicación con ese cliente, permitiendo que se manejen múltiples clientes simultáneamente.
 
 <img width="1816" height="824" alt="image" src="https://github.com/user-attachments/assets/3c46dbba-2e7c-4a62-ae3b-74197c5984dd" />  (Cliente fase 3)
@@ -62,15 +62,15 @@ Cada vez que un cliente se conecta, el servidor crea un nuevo hilo para gestiona
 <img width="1851" height="908" alt="image" src="https://github.com/user-attachments/assets/39c601ec-dd7b-4852-bac8-ec69d53d52da" />  (Server fase 3)
 ---------
 
-Fase 4: Mejora del Servidor - Comandos y Terminación
-Descripción:
 
+
+Fase 4: Mejora del Servidor - Comandos y Terminación
+-
+Descripción:
 En esta fase, el servidor ahora responde a comandos específicos enviados por los clientes. Se implementa el comando "TIME" para obtener la hora actual del servidor y "FIN" para terminar la sesión de manera controlada.
 
 Funcionalidad:
-
 El cliente puede enviar "TIME" para obtener la hora actual del servidor.
-
 El cliente puede enviar "FIN" para terminar la conversación de manera controlada.
 
 <img width="1827" height="894" alt="image" src="https://github.com/user-attachments/assets/5df35990-61f0-4c06-ab78-35a573e3b715" /> (Cliente fase 4)
