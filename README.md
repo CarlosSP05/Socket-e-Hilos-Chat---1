@@ -77,7 +77,7 @@ El cliente puede enviar "FIN" para terminar la conversación de manera controlad
 ---------
 <img width="1843" height="902" alt="image" src="https://github.com/user-attachments/assets/011ba428-e590-4713-987c-e8e3403d7d99" /> (Servidor fase 4)
 ---------
-
+---------
 Realizado por:
 - Carlos Sánchez Pérez
 - Jesús Macías Ojuelos
