@@ -1,4 +1,5 @@
 Servidor-Cliente en Java con Sockets
+-
 
 Este proyecto implementa un servidor y un cliente en Java utilizando sockets. A lo largo de las diferentes fases, el servidor se ha ido mejorando para manejar múltiples clientes, intercambiar mensajes y responder a comandos específicos.
 
